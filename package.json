@@ -1,0 +1,17 @@
+{
+  "name": "factorial-feature",
+  "version": "1.0.0",
+  "description": "> Codecademy Project: Factorial Feature",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "KodiBearGit",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}

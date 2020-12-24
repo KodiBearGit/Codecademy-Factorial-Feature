@@ -24,6 +24,15 @@ describe('Calculate', () => {
       //Verify
         assert.equal(result, expectedResult);
     });
+    it('test if output of 0! is 1', () => {
+      //Setup
+      const expectedResult = 1;
+      //Exercise
+        const inputNumber = 0;
+        const result = Calculate.factorial(inputNumber);
+      //Verify
+        assert.equal(result, expectedResult);
+    });
   });
 });
 

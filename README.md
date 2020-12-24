@@ -19,6 +19,7 @@ Project Requirements
 * Project Goals - In this project, you will use test-driven development to build a factorial method.  You will use the assert module and mocha testing library to drive your development using tests that follow the phases: setup, exercise, and verification.
 * Follow/complete steps (11 steps).
 * Emphasis on employing TDD red-green-refractor cycle.  
+* Notes are used extensively to understand what was expected/done. 
 
 ## Technologies
 
@@ -38,7 +39,7 @@ node index.js to run file
 
 ## Status
 
-Project is: Complete
+Project is: in Progress
 
 ## Inspiration
 

@@ -7,7 +7,16 @@ var Calculate =  require('../index.js')
 describe('Calculate', () => {
   describe('.factorial', () => {
     it('test if the output of 5! is 120', () => {
-
+      assert.equal(Calculate.factorial(5), 120);
     });
   });
 });
+
+/*2of11 
+Follow the steps below to write a test that checks if 120 is equal to Calculate.factorial(5).
+
+Write an assert.equal() statement inside your it block
+The first argument in your assert.equal() statement should be Calculate.factorial(5)
+The second argument should be 120
+Remember to run npm test to see the error message.*/
+

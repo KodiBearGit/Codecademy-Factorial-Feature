@@ -15,8 +15,19 @@ describe('Calculate', () => {
       //Verify
         assert.equal(result, expectedResult);
     });
+    it('test if the output of 3! is 6', () => {
+      //Setup
+      const expectedResult = 6;
+      //Exercise
+        const inputNumber = 3;
+        const result = Calculate.factorial(inputNumber);
+      //Verify
+        assert.equal(result, expectedResult);
+    });
   });
 });
+
+//worth noting the mocha documentation I read today was saying that use of => was not advised, I'm following this format as that is what I have been taught at this point. 
 
 /*2of11 
 Follow the steps below to write a test that checks if 120 is equal to Calculate.factorial(5).
@@ -35,3 +46,11 @@ Exercise
 Verify
  assert.equal(Calculate.factorial(5), 120);
 */
+/*5of11
+** Get into the red part 2:**
+
+Write another test, with an input other than 5 to put yourself back in the red. This will force you to write implementation code that covers more conditions than just .factorial(5).
+
+You can write a test that checks if your factorial method returns 6 when you pass 3 to .factorial()
+*/
+

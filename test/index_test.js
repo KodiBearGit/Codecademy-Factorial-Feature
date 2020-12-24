@@ -54,3 +54,10 @@ Write another test, with an input other than 5 to put yourself back in the red. 
 You can write a test that checks if your factorial method returns 6 when you pass 3 to .factorial()
 */
 
+/*7of11
+Refactor part 2
+
+If you haven’t already done so, make sure that all your test code uses descriptive variables instead of actual numeric values, and make sure that it follows the first three phases of a good test.
+
+Refactor your implementation code so that it is more concise and efficient. This could include cleaning up the existing code, or using a built-in method instead of a for loop for calculating the factorial of any input.
+*/

@@ -24,3 +24,9 @@ The factorial method should accept one input and return 120
 In your index.js file, replace the line of code return 120 with code that will actually calculate the factorial of the input argument passed to the .factorial() method
 */
 
+/*9of11
+
+Edge case — production code
+
+In your index.js file add implementation code that makes your edge case test pass.
+*/

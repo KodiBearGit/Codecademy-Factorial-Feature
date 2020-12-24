@@ -10,28 +10,28 @@ describe('Calculate', () => {
       //Setup
       const expectedResult = 120;
       //Exercise
-        const inputNumber = 5;
-        const result = Calculate.factorial(inputNumber);
+      const inputNumber = 5;
+      const result = Calculate.factorial(inputNumber);
       //Verify
-        assert.equal(result, expectedResult);
+      assert.equal(result, expectedResult);
     });
     it('test if the output of 3! is 6', () => {
       //Setup
       const expectedResult = 6;
       //Exercise
-        const inputNumber = 3;
-        const result = Calculate.factorial(inputNumber);
+      const inputNumber = 3;
+      const result = Calculate.factorial(inputNumber);
       //Verify
-        assert.equal(result, expectedResult);
+      assert.equal(result, expectedResult);
     });
     it('test if output of 0! is 1', () => {
       //Setup
       const expectedResult = 1;
       //Exercise
-        const inputNumber = 0;
-        const result = Calculate.factorial(inputNumber);
+      const inputNumber = 0;
+      const result = Calculate.factorial(inputNumber);
       //Verify
-        assert.equal(result, expectedResult);
+      assert.equal(result, expectedResult);
     });
   });
 });
@@ -70,3 +70,8 @@ If you haven’t already done so, make sure that all your test code uses descrip
 
 Refactor your implementation code so that it is more concise and efficient. This could include cleaning up the existing code, or using a built-in method instead of a for loop for calculating the factorial of any input.
 */
+
+
+/*8of11 Edge case: test code part 1
+
+In your index_test.js file, write an empty it block with an error message that covers the 0! edge case.

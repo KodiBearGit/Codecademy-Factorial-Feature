@@ -39,7 +39,7 @@ node index.js to run file
 
 ## Status
 
-Project is: in Progress
+Project is: Completed
 
 ## Inspiration
 
